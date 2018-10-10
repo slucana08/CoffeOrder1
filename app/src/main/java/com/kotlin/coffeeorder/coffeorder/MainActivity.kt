@@ -1,6 +1,8 @@
 package com.kotlin.coffeeorder.coffeorder
 
 import android.os.Bundle
+import android.support.constraint.ConstraintLayout
+import android.support.constraint.ConstraintSet
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
@@ -12,6 +14,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+//        var constraintLayout = findViewById(R.id.constraintLayout) as ConstraintLayout
+//        var button1 = Button(this)
+//        var set = ConstraintSet()
+//
+//        button1.id = R.id.button1
+//        button1.layoutParams = ConstraintLayout.LayoutParams(ConstraintLayout.LayoutParams.WRAP_CONTENT,
+//                ConstraintLayout.LayoutParams.WRAP_CONTENT)
+//
+//        constraintLayout.addView(button1)
+//
+//        set.connect(button1.id,ConstraintSet.BOTTOM,ConstraintSet.PARENT_ID,ConstraintSet.BOTTOM)
+//        set.applyTo(constraintLayout)
+//
+//        button1.text = "Haz click"
+//
+//        button1.setOnClickListener{
+//            button1.text = "Hizo Click"
+//        }
 
     }
 

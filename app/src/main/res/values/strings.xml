@@ -1,0 +1,8 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CoffeOrder</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="numero">2</string>
+    <string name="orden_mensaje">
+        Usted ordenó <xliff:g id="number" example="2">%d</xliff:g> tazas de café
+    </string>
+</resources>
